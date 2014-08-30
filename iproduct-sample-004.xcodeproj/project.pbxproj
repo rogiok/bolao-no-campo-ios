@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48B2B07A177BCCF9008E17CF /* CompetitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B079177BCCF9008E17CF /* CompetitionViewController.m */; };
+		48B2B07D177D1E88008E17CF /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B07C177D1E88008E17CF /* Session.m */; };
+		48B2B087177E7078008E17CF /* HtmlConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B086177E7078008E17CF /* HtmlConverter.m */; };
 		48F390A217754A4200494BA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F390A117754A4200494BA3 /* UIKit.framework */; };
 		48F390A417754A4200494BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F390A317754A4200494BA3 /* Foundation.framework */; };
 		48F390A617754A4200494BA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F390A517754A4200494BA3 /* CoreGraphics.framework */; };
@@ -24,6 +27,18 @@
 		48F390CB17754A4200494BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F390A317754A4200494BA3 /* Foundation.framework */; };
 		48F390D317754A4200494BA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48F390D117754A4200494BA3 /* InfoPlist.strings */; };
 		48F390D617754A4200494BA3 /* iproduct_sample_004Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F390D517754A4200494BA3 /* iproduct_sample_004Tests.m */; };
+		48F390E117754B0C00494BA3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F390E017754B0C00494BA3 /* MainViewController.m */; };
+		48F390E41775EB7100494BA3 /* CompetitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F390E31775EB7100494BA3 /* CompetitionsViewController.m */; };
+		48F390E81775EC3B00494BA3 /* Competition.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F390E71775EC3B00494BA3 /* Competition.m */; };
+		48F390EC1775ED5400494BA3 /* CompetitionsDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F390EB1775ED5400494BA3 /* CompetitionsDataController.m */; };
+		48F3911517762C2100494BA3 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F3911117762C2000494BA3 /* minus.png */; };
+		48F3911617762C2100494BA3 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F3911217762C2000494BA3 /* ok.png */; };
+		48F3911717762C2100494BA3 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F3911317762C2000494BA3 /* plus.png */; };
+		48F3911817762C2100494BA3 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F3911417762C2100494BA3 /* x.png */; };
+		48F3911B17762E1800494BA3 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3911A17762E1800494BA3 /* EventsViewController.m */; };
+		48F3911E177641A200494BA3 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F3911D177641A200494BA3 /* Event.m */; };
+		48F39121177642B700494BA3 /* Competitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F39120177642B700494BA3 /* Competitor.m */; };
+		48F39124177696FC00494BA3 /* EventsDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F39123177696FC00494BA3 /* EventsDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48B2B078177BCCF9008E17CF /* CompetitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitionViewController.h; sourceTree = "<group>"; };
+		48B2B079177BCCF9008E17CF /* CompetitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitionViewController.m; sourceTree = "<group>"; };
+		48B2B07B177D1E88008E17CF /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		48B2B07C177D1E88008E17CF /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		48B2B085177E7078008E17CF /* HtmlConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlConverter.h; sourceTree = "<group>"; };
+		48B2B086177E7078008E17CF /* HtmlConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlConverter.m; sourceTree = "<group>"; };
 		48F3909E17754A4200494BA3 /* iproduct-sample-004.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iproduct-sample-004.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F390A117754A4200494BA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		48F390A317754A4200494BA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +81,26 @@
 		48F390D217754A4200494BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48F390D417754A4200494BA3 /* iproduct_sample_004Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iproduct_sample_004Tests.h; sourceTree = "<group>"; };
 		48F390D517754A4200494BA3 /* iproduct_sample_004Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iproduct_sample_004Tests.m; sourceTree = "<group>"; };
+		48F390DF17754B0C00494BA3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		48F390E017754B0C00494BA3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		48F390E21775EB7100494BA3 /* CompetitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitionsViewController.h; sourceTree = "<group>"; };
+		48F390E31775EB7100494BA3 /* CompetitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitionsViewController.m; sourceTree = "<group>"; };
+		48F390E61775EC3B00494BA3 /* Competition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Competition.h; sourceTree = "<group>"; };
+		48F390E71775EC3B00494BA3 /* Competition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Competition.m; sourceTree = "<group>"; };
+		48F390EA1775ED5400494BA3 /* CompetitionsDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitionsDataController.h; sourceTree = "<group>"; };
+		48F390EB1775ED5400494BA3 /* CompetitionsDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitionsDataController.m; sourceTree = "<group>"; };
+		48F3911117762C2000494BA3 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
+		48F3911217762C2000494BA3 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		48F3911317762C2000494BA3 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		48F3911417762C2100494BA3 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		48F3911917762E1700494BA3 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		48F3911A17762E1800494BA3 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		48F3911C177641A200494BA3 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		48F3911D177641A200494BA3 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		48F3911F177642B700494BA3 /* Competitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Competitor.h; sourceTree = "<group>"; };
+		48F39120177642B700494BA3 /* Competitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Competitor.m; sourceTree = "<group>"; };
+		48F39122177696FC00494BA3 /* EventsDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsDataController.h; sourceTree = "<group>"; };
+		48F39123177696FC00494BA3 /* EventsDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48B2B07E177E6A40008E17CF /* util */ = {
+			isa = PBXGroup;
+			children = (
+				48B2B085177E7078008E17CF /* HtmlConverter.h */,
+				48B2B086177E7078008E17CF /* HtmlConverter.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
 		48F3909517754A4200494BA3 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +169,9 @@
 		48F390A717754A4200494BA3 /* iproduct-sample-004 */ = {
 			isa = PBXGroup;
 			children = (
+				48B2B07E177E6A40008E17CF /* util */,
+				48F390E91775ED2800494BA3 /* data-controller */,
+				48F390E51775EC1A00494BA3 /* model */,
 				48F390B017754A4200494BA3 /* AppDelegate.h */,
 				48F390B117754A4200494BA3 /* AppDelegate.m */,
 				48F390B917754A4200494BA3 /* MainStoryboard_iPhone.storyboard */,
@@ -126,6 +179,14 @@
 				48F390BF17754A4200494BA3 /* ViewController.h */,
 				48F390C017754A4200494BA3 /* ViewController.m */,
 				48F390A817754A4200494BA3 /* Supporting Files */,
+				48F390DF17754B0C00494BA3 /* MainViewController.h */,
+				48F390E017754B0C00494BA3 /* MainViewController.m */,
+				48F390E21775EB7100494BA3 /* CompetitionsViewController.h */,
+				48F390E31775EB7100494BA3 /* CompetitionsViewController.m */,
+				48F3911917762E1700494BA3 /* EventsViewController.h */,
+				48F3911A17762E1800494BA3 /* EventsViewController.m */,
+				48B2B078177BCCF9008E17CF /* CompetitionViewController.h */,
+				48B2B079177BCCF9008E17CF /* CompetitionViewController.m */,
 			);
 			path = "iproduct-sample-004";
 			sourceTree = "<group>";
@@ -133,6 +194,10 @@
 		48F390A817754A4200494BA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				48F3911117762C2000494BA3 /* minus.png */,
+				48F3911217762C2000494BA3 /* ok.png */,
+				48F3911317762C2000494BA3 /* plus.png */,
+				48F3911417762C2100494BA3 /* x.png */,
 				48F390A917754A4200494BA3 /* iproduct-sample-004-Info.plist */,
 				48F390AA17754A4200494BA3 /* InfoPlist.strings */,
 				48F390AD17754A4200494BA3 /* main.m */,
@@ -161,6 +226,32 @@
 				48F390D117754A4200494BA3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48F390E51775EC1A00494BA3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				48F390E61775EC3B00494BA3 /* Competition.h */,
+				48F390E71775EC3B00494BA3 /* Competition.m */,
+				48F3911C177641A200494BA3 /* Event.h */,
+				48F3911D177641A200494BA3 /* Event.m */,
+				48F3911F177642B700494BA3 /* Competitor.h */,
+				48F39120177642B700494BA3 /* Competitor.m */,
+				48B2B07B177D1E88008E17CF /* Session.h */,
+				48B2B07C177D1E88008E17CF /* Session.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		48F390E91775ED2800494BA3 /* data-controller */ = {
+			isa = PBXGroup;
+			children = (
+				48F390EA1775ED5400494BA3 /* CompetitionsDataController.h */,
+				48F390EB1775ED5400494BA3 /* CompetitionsDataController.m */,
+				48F39122177696FC00494BA3 /* EventsDataController.h */,
+				48F39123177696FC00494BA3 /* EventsDataController.m */,
+			);
+			name = "data-controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +331,10 @@
 				48F390B817754A4200494BA3 /* Default-568h@2x.png in Resources */,
 				48F390BB17754A4200494BA3 /* MainStoryboard_iPhone.storyboard in Resources */,
 				48F390BE17754A4200494BA3 /* MainStoryboard_iPad.storyboard in Resources */,
+				48F3911517762C2100494BA3 /* minus.png in Resources */,
+				48F3911617762C2100494BA3 /* ok.png in Resources */,
+				48F3911717762C2100494BA3 /* plus.png in Resources */,
+				48F3911817762C2100494BA3 /* x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +372,17 @@
 				48F390AE17754A4200494BA3 /* main.m in Sources */,
 				48F390B217754A4200494BA3 /* AppDelegate.m in Sources */,
 				48F390C117754A4200494BA3 /* ViewController.m in Sources */,
+				48F390E117754B0C00494BA3 /* MainViewController.m in Sources */,
+				48F390E41775EB7100494BA3 /* CompetitionsViewController.m in Sources */,
+				48F390E81775EC3B00494BA3 /* Competition.m in Sources */,
+				48F390EC1775ED5400494BA3 /* CompetitionsDataController.m in Sources */,
+				48F3911B17762E1800494BA3 /* EventsViewController.m in Sources */,
+				48F3911E177641A200494BA3 /* Event.m in Sources */,
+				48F39121177642B700494BA3 /* Competitor.m in Sources */,
+				48F39124177696FC00494BA3 /* EventsDataController.m in Sources */,
+				48B2B07A177BCCF9008E17CF /* CompetitionViewController.m in Sources */,
+				48B2B07D177D1E88008E17CF /* Session.m in Sources */,
+				48B2B087177E7078008E17CF /* HtmlConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +573,7 @@
 				48F390DB17754A4200494BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48F390DC17754A4200494BA3 /* Build configuration list for PBXNativeTarget "iproduct-sample-004Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +582,7 @@
 				48F390DE17754A4200494BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
